@@ -198,7 +198,8 @@ $('document').ready(function(){
 	});
 	$('#cake_cut').click(function(){
 		$('#cake_cut').fadeOut('slow');
-		$('.cake').html('<img src="cake_cut.gif" alt="peng ting">');
+		$('.cake').html('<img src="cake_cut.gif" alt="peng ting" width="300" height="300">');
+		$('#make').addClass('cut_cake').removeClass('cake');
 	});
 });
 
