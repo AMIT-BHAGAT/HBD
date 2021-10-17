@@ -1312,8 +1312,7 @@ audio {
 .cut_cake{
 	position:absolute;
 	display:none;
-	left:50%;
-	margin-left:-50%;
-	width:100%;
-	 height:100%;
+	left:30%;
+	top:100px;
+	
 }
