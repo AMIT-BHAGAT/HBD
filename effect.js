@@ -176,9 +176,10 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
-			if(i==50){
-				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
+			if(i==40){
+				$("p:nth-child(39)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					$('#cake_cut').fadeIn('slow');
 				});
 				
 			}
@@ -191,7 +192,13 @@ $('document').ready(function(){
 		}
 		
 		msgLoop(0);
+
 		
+		
+	});
+	$('#cake_cut').click(function(){
+		$('#cake_cut').fadeOut('slow');
+		$('.cake').html('<img src="cake_cut.gif" alt="peng ting">');
 	});
 });
 
