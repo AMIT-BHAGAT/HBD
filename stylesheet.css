@@ -1316,3 +1316,7 @@ audio {
 	top:150px;
 	
 }
+
+button.btn-primary{
+	height:70px !important
+}
